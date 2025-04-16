@@ -8,9 +8,9 @@ namespace PatronesSoftware_Trabajo2.Adapter.sistemaAntiguo
 {
     public class SistemaAntiguo
     {
-        public void ObtenerInformacion()
+        public void DoOperation(string dato)
         {
-            Console.WriteLine("Obteniendo datos del sistema antiguo");
+            Console.WriteLine($"Procesando en el sistema antiguo: {dato}");
         }
     }
 }

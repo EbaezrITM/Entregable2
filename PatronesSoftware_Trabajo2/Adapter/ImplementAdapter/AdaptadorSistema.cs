@@ -12,14 +12,15 @@ namespace PatronesSoftware_Trabajo2.Adapter.ImplementAdapter
     {
         private SistemaAntiguo _sistemaAntiguo;
 
-        public AdaptadorSistema(SistemaAntiguo sistemaAntiguo) 
+        public AdaptadorSistema(SistemaAntiguo sistemaAntiguo)
         {
             this._sistemaAntiguo = sistemaAntiguo;
         }
 
         public void ObtenerDatos()
         {
-            _sistemaAntiguo.ObtenerInformacion();
+            string datoEjemplo = "Dato de prueba ejecutado desde el adapter";
+            _sistemaAntiguo.DoOperation(datoEjemplo);
         }
     }
 }

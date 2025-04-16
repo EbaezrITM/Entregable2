@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Adapter\ImplementAdapter\AdaptadorSistema.cs" />
     <Compile Include="Adapter\Interfaces\INuevaPlataforma.cs" />
+    <Compile Include="Adapter\NuevoSistema\NuevaPlataforma.cs" />
     <Compile Include="Adapter\sistemaAntiguo\SistemaAntiguo.cs" />
     <Compile Include="Composite\Elementos\ElementoSimple.cs" />
     <Compile Include="Composite\ImplementComposite\ContenedorUI.cs" />

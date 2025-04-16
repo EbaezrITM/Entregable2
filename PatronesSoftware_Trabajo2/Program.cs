@@ -26,7 +26,6 @@ namespace PatronesSoftware_Trabajo2
             nuevaPlataforma.Mostrar();
             Console.WriteLine("<---------------------------------------------------------------------------->\n");
 
-
             //Execute Proxy
             Console.WriteLine("::::::::::::::::::::::: Ejecutando Proxy ::::::::::::::::::::::::::::::::::\n");
             IArchivo archivo = new ProxyArchivo("ArchivoSecret.txt", false);
